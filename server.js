@@ -48,7 +48,7 @@ app.get('/api/items', (req, res) => {
     });
 });
 
-// PUT
+// PUT (EDIT)
 
 app.put('/api/items/:id', (req, res) => {
     const { id } = req.params;
