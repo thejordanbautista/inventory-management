@@ -8,10 +8,10 @@ const app = express();
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: 'yourUsername', 
+  user: 'thejordanbautista', 
   host: 'localhost',         
-  database: 'yourDatabase', 
-  password: 'yourPassword', 
+  database: 'postgres', 
+  password: 'Pentagames00*', 
   port: 5432,               
 });
 
