@@ -25,6 +25,14 @@ const AddItemScreen = () => {
   const handleSaveItem = () => {
     // Here you would typically send formData to your backend or state management
     console.log(formData);
+    try {
+        // Assume you save the item successfully
+        // Now navigate back to the InventoryListScreen
+        navigation.navigate('InventoryListScreen'); // If you want to ensure navigation regardless of the previous screen
+      } catch (error) {
+        console.error(error);
+        // Handle save error
+      }
     // Generate uniqueId for QR Code, could be done backend or here
     setFormData({...formData, uniqueId: 'GeneratedOrFetchedUniqueId'});
   };

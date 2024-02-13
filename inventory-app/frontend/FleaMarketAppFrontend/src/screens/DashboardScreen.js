@@ -20,7 +20,7 @@ const Dashboard = ({ navigation }) => {
       />
       <Button
         title="Sell Item"
-        onPress={() => navigation.navigate('ScanQRCode')}
+        onPress={() => navigation.navigate('SalesReport')}
       />
       <Button
         title="Settings"

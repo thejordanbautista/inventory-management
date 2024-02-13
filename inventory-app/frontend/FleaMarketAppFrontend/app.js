@@ -8,6 +8,9 @@ import DashboardScreen from './src/screens/DashboardScreen';
 import InventoryListScreen from './src/screens/InventoryListScreen';
 import AddEditItemScreen from './src/screens/AddEditItemScreen';
 import ItemDetailScreen from './src/screens/ItemDetailScreen';
+import SalesReportScreen from './src/screens/SalesReportScreen';
+import SalesTrackingScreen from './src/screens/SalesTrackingScreen';
+import SettingScreen from './src/screens/SettingScreen';
 // Import other screens
 
 const Stack = createNativeStackNavigator();
@@ -22,6 +25,9 @@ const App = () => {
         <Stack.Screen name="InventoryList" component={InventoryListScreen} />
         <Stack.Screen name="AddEditItem" component={AddEditItemScreen} />
         <Stack.Screen name="ItemDetailScreen" component={ItemDetailScreen} />
+        <Stack.Screen name="SalesReport" component={SalesReportScreen} />
+        <Stack.Screen name="SalesTracking" component={SalesTrackingScreen} />
+        <Stack.Screen name="Settings" component={SettingScreen} />
         {/* Add other screens */}
       </Stack.Navigator>
     </NavigationContainer>
